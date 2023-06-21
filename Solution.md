@@ -134,7 +134,9 @@ Premium:
 Average Payment Pattern:
 
 The 'From Ground Up' payment pattern is `[0.3, 0.6, 0.1]` meaning that only `30%` of loss amounts are incurred in the first development year. Given a deductible of `5m` accross the board we notice that the average payment coefficient for the reinsurer does not exceed `5%` in the first year.
+
 Then, `90%` (`0.3+0.6`) of the total claim amount is incurred in the second development year. The incurred claim amount of the reinsurer hovers around `35%` of its final value, it illustrates that claims start to significantly exceed the deductibles w.r.t. previous year.
+
 Finally, the third development year exhibits the largest average payment coefficient (`+-60.5%`). It shows that, for this particular case, the reinsurer almost fully bares the burden of loss aggravation in the tails of the distribution.
 
 Normally we'd discount the amount in development year 2 to bring it to an actualized loss today. 
