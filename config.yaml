@@ -1,0 +1,52 @@
+simulations:
+  nb: 100_000
+  seed: 0
+
+  frequency:
+    distribution: "Poisson"
+    parameters:
+      rate: 1
+
+  severity:
+    distribution: "Pareto"
+    parameters:
+      shape: 1.2
+      scale: 2_000_000
+
+  development_pattern: [0.3, 0.6, 0.1]
+
+financials:
+  cost_of_capital: 0.08
+
+treaties:
+  - name: 10m xs 5m
+    type: xs
+    parameters:
+      deductible: 5_000_000
+      limit: 10_000_000
+      aad: 0
+      aal: 0
+
+  - name: 10m xs 5m, AAD 2m
+    type: xs
+    parameters:
+      deductible: 5_000_000
+      limit: 10_000_000
+      aad: 2_000_000
+      aal: 0
+
+  - name: 10m xs 5m, AAL 12m
+    type: xs
+    parameters:
+      deductible: 5_000_000
+      limit: 10_000_000
+      aad: 0
+      aal: 12_000_000   
+
+  - name: 10m xs 5m, AAD 2m, AAL 12m
+    type: xs
+    parameters:
+      deductible: 5_000_000
+      limit: 10_000_000
+      aad: 2_000_000
+      aal: 12_000_000          
