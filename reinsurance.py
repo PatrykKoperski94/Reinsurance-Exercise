@@ -51,5 +51,28 @@ class ExcessOfLoss:
         self.recoveries = recoveries
         return self
 
+@dataclass
+class QuotaShare:
+    """Class representing a quota share treaty."""
 
-treaties_map = {'xs': ExcessOfLoss}
+    share: float  # The reinsurer's share of premiums and losses, expressed as a decimal.
+
+    def __post_init__(self):
+        """Initialize additional attributes after object creation."""
+        self.recoveries = 0.0
+
+    def apply_treaty(self, claim_amount):
+        """Apply the quota share treaty to premiums and losses.
+
+        Args:
+            premium (float): The premium amount to be shared.
+            loss (float): The loss amount to be shared.
+
+        Returns:
+            QuotaShare: The updated QuotaShare object after applying the treaty.
+        """
+        self.recoveries = claim_amount * self.share
+        return self
+
+treaties_map = {'xs': ExcessOfLoss, 'qs': QuotaShare}
+

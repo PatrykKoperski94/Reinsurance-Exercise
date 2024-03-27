@@ -3,59 +3,74 @@ treatyName,statistic,claimDevelopmentYear,value
 "10m xs 5m, AAD 2m",average_loss,0,297418.20746898
 "10m xs 5m, AAD 2m, AAL 12m",average_loss,0,294012.88169689727
 "10m xs 5m, AAL 12m",average_loss,0,379470.26507085725
+qs 80%,average_loss,0,2514495.053363093
 10m xs 5m,VaR,0,10000000.0
 "10m xs 5m, AAD 2m",VaR,0,10000000.0
 "10m xs 5m, AAD 2m, AAL 12m",VaR,0,10000000.0
 "10m xs 5m, AAL 12m",VaR,0,10000000.0
+qs 80%,VaR,0,24189701.15655735
 10m xs 5m,TVaR,0,10321232.707388785
 "10m xs 5m, AAD 2m",TVaR,0,10300897.031172233
 "10m xs 5m, AAD 2m, AAL 12m",TVaR,0,10110335.991883887
 "10m xs 5m, AAL 12m",TVaR,0,10120965.915741522
+qs 80%,TVaR,0,99665890.12553155
 10m xs 5m,premium,0,1178615.9289640062
 "10m xs 5m, AAD 2m",premium,0,1097696.5133652403
 "10m xs 5m, AAD 2m, AAL 12m",premium,0,1079318.7305118565
 "10m xs 5m, AAL 12m",premium,0,1158789.9171245103
+qs 80%,premium,0,10286606.659136571
 10m xs 5m,average_payment_pattern,0,0.04212864897403967
 "10m xs 5m, AAD 2m",average_payment_pattern,0,0.045310606238218316
 "10m xs 5m, AAD 2m, AAL 12m",average_payment_pattern,0,0.04932645970660557
 "10m xs 5m, AAL 12m",average_payment_pattern,0,0.04589584187603892
+qs 80%,average_payment_pattern,0,0.13636363636363638
 10m xs 5m,average_loss,1,1446705.0253532233
 "10m xs 5m, AAD 2m",average_loss,1,1150873.3049156533
 "10m xs 5m, AAD 2m, AAL 12m",average_loss,1,1104730.9834873911
 "10m xs 5m, AAL 12m",average_loss,1,1390587.3965422576
+qs 80%,average_loss,1,7543485.160089279
 10m xs 5m,VaR,1,13267044.544467125
 "10m xs 5m, AAD 2m",VaR,1,12149343.61517979
 "10m xs 5m, AAD 2m, AAL 12m",VaR,1,12000000.0
 "10m xs 5m, AAL 12m",VaR,1,12000000.0
+qs 80%,VaR,1,72569103.46967205
 10m xs 5m,TVaR,1,17460750.177824054
 "10m xs 5m, AAD 2m",TVaR,1,16611675.141753541
 "10m xs 5m, AAD 2m, AAL 12m",TVaR,1,12000000.0
 "10m xs 5m, AAL 12m",TVaR,1,12000000.0
+qs 80%,TVaR,1,298997670.37659466
 10m xs 5m,premium,1,2727828.6375508895
 "10m xs 5m, AAD 2m",premium,1,2387737.4518626845
 "10m xs 5m, AAD 2m, AAL 12m",premium,1,1976352.5048083998
 "10m xs 5m, AAL 12m",premium,1,2239340.404818877
+qs 80%,premium,1,30859819.977409713
 10m xs 5m,average_payment_pattern,1,0.34984307364026346
 "10m xs 5m, AAD 2m",average_payment_pattern,1,0.3478605643478178
 "10m xs 5m, AAD 2m, AAL 12m",average_payment_pattern,1,0.3495110931843574
 "10m xs 5m, AAL 12m",average_payment_pattern,1,0.3510353882480469
+qs 80%,average_payment_pattern,1,0.4090909090909091
 10m xs 5m,average_loss,2,1641485.838732892
 "10m xs 5m, AAD 2m",average_loss,2,1310880.6590874088
 "10m xs 5m, AAD 2m, AAL 12m",average_loss,2,1251549.617197291
 "10m xs 5m, AAL 12m",average_loss,2,1569152.0410193878
+qs 80%,average_loss,2,8381650.177876976
 10m xs 5m,VaR,2,14588109.545679364
 "10m xs 5m, AAD 2m",VaR,2,13371168.107134882
 "10m xs 5m, AAD 2m, AAL 12m",VaR,2,12000000.0
 "10m xs 5m, AAL 12m",VaR,2,12000000.0
+qs 80%,VaR,2,80632337.18852451
 10m xs 5m,TVaR,2,18525360.752058893
 "10m xs 5m, AAD 2m",TVaR,2,17741276.52191518
 "10m xs 5m, AAD 2m, AAL 12m",TVaR,2,12000000.0
 "10m xs 5m, AAL 12m",TVaR,2,12000000.0
+qs 80%,TVaR,2,332219633.75177187
 10m xs 5m,premium,2,2992195.831798972
 "10m xs 5m, AAD 2m",premium,2,2625312.3281136304
 "10m xs 5m, AAD 2m, AAL 12m",premium,2,2111425.647821508
 "10m xs 5m, AAL 12m",premium,2,2403619.877737837
+qs 80%,premium,2,34288688.863788575
 10m xs 5m,average_payment_pattern,2,0.6080282773856969
 "10m xs 5m, AAD 2m",average_payment_pattern,2,0.6068288294139639
 "10m xs 5m, AAD 2m, AAL 12m",average_payment_pattern,2,0.601162447109037
 "10m xs 5m, AAL 12m",average_payment_pattern,2,0.6030687698759142
+qs 80%,average_payment_pattern,2,0.45454545454545453

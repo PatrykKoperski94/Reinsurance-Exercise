@@ -19,6 +19,11 @@ financials:
   cost_of_capital: 0.08
 
 treaties:
+  - name: qs 80%
+    type: qs
+    parameters:
+      share: 0.8
+
   - name: 10m xs 5m
     type: xs
     parameters:
