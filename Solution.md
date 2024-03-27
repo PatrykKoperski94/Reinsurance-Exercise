@@ -15,7 +15,7 @@ The pricing program offers flexibility as it allows for pricing multiple treatie
 Moreover, it establishes a foundation for incorporating additional frequency and severity distributions in the future, enabling more comprehensive and adaptable pricing capabilities.
 
 # Config
-I've run the simulation using the following config values:
+The simulation has been executed using the following config values:
 ```Yaml
 simulations:
   nb: 1_000_000
